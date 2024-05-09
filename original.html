@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>High-Speed HTML</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Cache-control" content="public">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='48px' viewBox='0 0 24 24' width='48px' fill='%23F7CE00'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M11,21h-1l1-7H6.74c0,0,3.68-6.46,6.26-11h1l-1,7h4.28L11,21z'/%3E%3C/g%3E%3C/svg%3E" />
+        
+        <style>
+            body {
+                background-color: #212121;
+                font-family: "Roboto", sans-serif;
+                color: #FFFFFF;
+                padding: 20px;
+                font-size: 20px;
+                
+                @media (min-width: 960px) {
+                    padding-left: 20%;
+                    padding-right: 20%;
+                }
+            }
+            
+            h1 {
+                font-size: 3em;
+            }
+            
+            .yellow {
+                color: #F7CE00;
+                transition: 0.5s
+            }
+            
+            .yellow:hover {
+                filter: drop-shadow(0px 0px 5px);
+                transition: 0.5s;
+            }
+            
+            h1 .yellow:hover {
+                @media (min-width: 350px) {
+                    margin-left: 20px;
+                };
+                
+                @media (min-width: 400px) {
+                    margin-left: 40px;
+                };
+                
+                transition: 0.5s;
+            }
+            
+            table {
+                margin-top: -20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            .tableright {
+                width: 20%;
+            }
+            
+            td img {
+                width: 100%;
+                max-height: 100px;
+                transition: 0.5s;
+            }
+            
+            td img:hover {
+                filter: drop-shadow(0.25rem 0.25rem 0.5rem #8E7700);
+                transform: skew(-10deg, 5deg);
+                transition: 0.5s;
+            }
+            
+            a {
+                color: #F7CE00;
+                transition: 0.5s;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: #FFFFFF;
+                transition: 0.5s;
+                filter: drop-shadow(0px 0px 5px);
+                font-weight: 900;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <strong>SPEED IS OF THE <span class="yellow">ESSENCE.</span></strong>
+        </h1>
+        
+        <table>
+            <tr>
+                <td class="tableleft">
+                    This site is the <span class="yellow">ultimate</span> embodiment
+                    of that spirit, the eternal drive to make beautiful websites
+                    that perform no matter what. How do I do it?
+                </td>
+                <td class="tableright">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='%23FFFFFF'%3E%3Cpath d='M406-324q23 23 67.5 22t64.5-33l225-349-346 228q-31 20-32.5 64.5T406-324Zm71.82-487Q537-811 602-791.5T725-726l-63 46q-45-30-95.5-44t-88.52-14q-140.47 0-239.23 100.22Q140-537.57 140-395.02q0 46.02 12 90.52 12 44.5 35 83.5h581q20-35 33.5-81.83Q815-349.65 815-397q0-41-12-90t-44-90l48-62q39.15 56.85 59.08 116.92Q886-462 888-403q2 62-12.5 116.5T833-186q-13 25-28.33 31.5Q789.34-148 766-148H189q-20.34 0-38.67-10Q132-168 123-186q-27-48-41.5-100T67-395.61Q67-481 99.48-556.3q32.48-75.31 88.41-131.83 55.94-56.53 131.2-89.7Q394.36-811 477.82-811ZM474-473Z'/%3E%3C/svg%3E"/>
+                </td>
+            </tr>
+        </table>
+        
+        <hr />
+        <h1>FILES? <span class="yellow">ONE.</span></h1>
+        
+        <table>
+            <tr>
+                <td class="tableright">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='%23FFFFFF'%3E%3Cpath d='M480-280h80v-400H400v80h80v320ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z'/%3E%3C/svg%3E"/>
+                </td>
+                <td class="tableleft">
+                    A <span class="yellow">single</span> file, providing every
+                    bit of HTML, CSS, and SVG file that this page needs. You've
+                    gotta admit, it looks really nice.
+                    <br /><br />
+                    On a more serious note, having everything put into a single
+                    file reduces HTTP requests to one, meaning that your computer
+                    only sends one request and only gets one response.
+                </td>
+            </tr>
+        </table>
+        
+        <hr />
+        <h1>A SINGLE FILE, <span class="yellow">MINIFIED*</span></h1>
+        
+        <table>
+            <tr>
+                <td class="tableleft">
+                    Minification makes things <span class="yellow">fast</span>
+                    by making things small. By taking
+                    this page's files and stripping out as much unneeded text as
+                    possible, the files become so small that transmission is
+                    nearly <span class="yellow">instant.</span> Minified code is
+                    less readable, but is that really a problem for a computer?
+                </td>
+                <td class="tableright">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='%23FFFFFF'%3E%3Cpath d='M160-410v-70h640v70H160Zm0-121v-60h640v60H160ZM449-80v-158l-77 76-42-42 149-148 147 148-42 42-75-76v158h-60Zm30-568L331-796l42-42 75 76v-158h60v158l77-76 42 42-148 148Z'/%3E%3C/svg%3E"/>
+                </td>
+            </tr>
+        </table>
+        
+        <hr />
+        <h1>SVG IS <span class="yellow">THE WAY</span></h1>
+        
+        <table>
+            <tr>
+                <td class="tableright">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='%23FFFFFF'%3E%3Cpath d='M345-377h391L609-548 506-413l-68-87-93 123Zm-85 177q-24 0-42-18t-18-42v-560q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560v-560H260v560ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm120-740v560-560Z'/%3E%3C/svg%3E"/>
+                </td>
+                <td class="tableleft">
+                    SVGs are <span class="yellow">compact</span> little files. Using them allows me to save
+                    on file size while still providing nice, appealing visuals.
+                    Using them as a data URI lets me keep even those inline
+                    as well, maintaining this page's one-file-ness.
+                </td>
+            </tr>
+        </table>
+        
+        <hr />
+        <h1>THE CONTENT DELIVERY <span class="yellow">ACCELERATOR</span></h1>
+        
+        <table>
+            <tr>
+                <td class="tableleft">
+                    This webpage is hosted on a GitHub Pages server and cached
+                    with the <span class="yellow">Cloudflare CDN,</span> a globe-spanning
+                    content delivery network that accelerates websites with servers
+                    around the world. That close physical proximity allows this
+                    page to be delivered faster to any end user.
+                </td>
+                <td class="tableright">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='%23FFFFFF'%3E%3Cpath d='M286.88-717q-20.88 0-35.38 14.62-14.5 14.62-14.5 35.5 0 20.88 14.62 35.38 14.62 14.5 35.5 14.5 20.88 0 35.38-14.62 14.5-14.62 14.5-35.5 0-20.88-14.62-35.38-14.62-14.5-35.5-14.5Zm0 414q-20.88 0-35.38 14.62-14.5 14.62-14.5 35.5 0 20.88 14.62 35.38 14.62 14.5 35.5 14.5 20.88 0 35.38-14.62 14.5-14.62 14.5-35.5 0-20.88-14.62-35.38-14.62-14.5-35.5-14.5ZM154-839h651q16 0 25.5 9.5t9.5 25.81V-535q0 17.42-9.5 29.21T805-494H154q-15 0-24.5-11.79T120-535v-268.69q0-16.31 9.5-25.81T154-839Zm26 60v225h600v-225H180Zm-26 353h647q15 0 27 12.5t12 28.53V-121q0 20-12 30.5T801-80H159q-16 0-27.5-10.5T120-121v-263.97q0-16.03 9.5-28.53T154-426Zm26 60v226h600v-226H180Zm0-413v225-225Zm0 413v226-226Z'/%3E%3C/svg%3E"/>
+                </td>
+            </tr>
+        </table>
+        
+        <hr />
+        <h2>IS THIS <span class="yellow">FOR ME?</span></h2>
+        In all honestly, <span class="yellow">probably not.</span> This is a
+        really extreme example, and you'll probably be fine following the basic
+        steps here:
+        <ul>
+            <li><a href="https://blog.hubspot.com/marketing/how-to-reduce-your-websites-page-speed">9 Quick Ways to Improve Page Loading Speed</a></li>
+            <li><a href="https://www.websiteplanet.com/blog/9-fundamental-concepts-effective-web-design">9 Fundamental Concepts For Effective Web Design</a></li>
+            <li><a href="https://shortiedesigns.com/blog/10-top-principles-effective-web-design/">10 Top Principles of Effective Web Design</a></li>
+            <li><a href="https://web.dev/learn/performance/why-speed-matters">Why does speed matter?</a></li>
+        </ul>
+        
+        <h5><em>A project by <span class="yellow">Kadmiel E. Martin</span></em></h5>
+    </body>
+</html>
